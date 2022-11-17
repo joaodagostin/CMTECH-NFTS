@@ -1,0 +1,66 @@
+.conteudo h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #000;
+    font-size: 3em;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 1.5%;
+}
+body {
+    background-color: #f8f9fa;
+}
+.conteudo {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.caixa {
+    border: 1px solid gray;
+    width: 60%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    height: 600px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+}
+.caixa h2 {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.caixa p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 3%;
+}
+.util {
+    margin-left: 3%;
+
+}
+.Sim {
+    margin-top: 10px;
+    background-color: #9E8313;
+}
+.Nao {
+    background-color: #9E8313;
+}
+
+@media screen and (max-width: 564px){
+    .caixa {
+        border: 1px solid gray;
+        width: 60%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        height: 800px;
+        margin-left: 20%;
+        margin-right: 20%;
+        background-color: white;
+    }
+}
