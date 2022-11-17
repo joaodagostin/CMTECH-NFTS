@@ -15,17 +15,17 @@ session_start('perfil.php');
 <title>CMtech - As melhores NFTs em um só site!</title>
 <link href="http://cmtechnology.me/cmtech/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="http://cmtechnology.me/cmtech/style.css" rel='stylesheet' type='text/css' />
-<link rel="shortcut icon" href="images/logopng.png" type="image/x-icon">
+<link rel="shortcut icon" href="http://cmtechnology.me/cmtech/logopng.png" type="image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<script src="js/jquery.min.js"></script>
+<script src="http://cmtechnology.me/cmtech/jquery.min.js"></script>
 <!--<script src="js/jquery.easydropdown.js"></script>-->
 <!--start slider -->
 <link rel="stylesheet" href="http://cmtechnology.me/cmtech/fwslider.css" media="all">
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/fwslider.js"></script>
+<script src="http://cmtechnology.me/cmtech/jquery-ui.min.js"></script>
+<script src="http://cmtechnology.me/cmtech/fwslider.js"></script>
 <!--end slider -->
 <script type="text/javascript">
         $(document).ready(function() {
@@ -66,10 +66,10 @@ session_start('perfil.php');
 			  <div class="col-md-12">
 				 <div class="header-left">
 					 <div class="logo">
-						<a href="index.php"><img src="images/logopng.png" width="60" height="50"/></a>
+						<a href="index.php"><img src="http://cmtechnology.me/cmtech/logopng.png" width="60" height="50"/></a>
 					 </div>
 					 <div class="menu">
-						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
+						  <a class="toggleMenu" href="#"><img src="http://cmtechnology.me/cmtech/nav.png" alt="" /></a>
 						    <ul class="nav" id="nav">
 						    	<li><a href="shop.php">Explorar</a></li>
 						    	<li><a href="team.php">Time</a></li>
@@ -78,7 +78,7 @@ session_start('perfil.php');
 						    	<li><a href="criar.php">Crie</a></li>							
 								<div class="clear"></div>
 							</ul>
-							<script type="text/javascript" src="js/responsive-nav.js"></script>
+							<script type="text/javascript" src="http://cmtechnology.me/cmtech/responsive-nav.js"></script>
 				    </div>							
 	    		    <div class="clear"></div>
 	    	    </div>
@@ -94,21 +94,21 @@ session_start('perfil.php');
 							</div>
 						</div>
 						<!----search-scripts---->
-						<script src="js/classie.js"></script>
-						<script src="js/uisearch.js"></script>
+						<script src="http://cmtechnology.me/cmtech/classie.js"></script>
+						<script src="http://cmtechnology.me/cmtech/uisearch.js"></script>
 						<script>
 							new UISearch( document.getElementById( 'sb-search' ) );
 						</script>
 						<!----//search-scripts---->
 					<ul class="icon1 sub-icon1 profile_img">
-					 <li><a class="active-icon c1" href="login.php"> </a>
+					 <li><a class="active-icon c1" href="http://cmtechnology.me/cmtech/login.php"> </a>
 						<ul class="sub-icon1 list">
 						   <div class="clear"></div>
 						  <li class="list_img"><img class="imagem-perfil" src="<?php echo $pessoa['fotoperfil'] ?>"></li>
 						  <li class="list_desc"><h4><a href="#"><?php echo $pessoa['usuario']; ?> </a></h4><span class="actual"></span></li>
 						  <div class="login_buttons">
-							 <div class="check_button"><a href="sair.php">Sair</a></div>
-							 <div class="login_button"><a href="perfil.php">Perfil</a></div>
+							 <div class="check_button"><a href="http://cmtechnology.me/cmtech/sair.php">Sair</a></div>
+							 <div class="login_button"><a href="http://cmtechnology.me/cmtech/perfil.php">Perfil</a></div>
 							 <div class="clear"></div>
 						  </div>
 						  <div class="clear"></div>
@@ -127,7 +127,7 @@ session_start('perfil.php');
          <div class="slider_container">
             <div class="slide"> 
                 <!-- Slide image -->
-               <img src="images/slider1.png" class="img-responsive" alt=""/>
+               <img src="http://cmtechnology.me/cmtech/slider1.png" class="img-responsive" alt=""/>
                 <!-- /Slide image -->
                 <!-- Texts container -->
                 <div class="slide_content">
@@ -137,7 +137,7 @@ session_start('perfil.php');
             </div>
             <!-- /Duplicate to create more slides -->
             <div class="slide">
-               <img src="images/slider2.png" class="img-responsive" alt=""/>
+               <img src="http://cmtechnology.me/cmtech/slider2.png" class="img-responsive" alt=""/>
                 <div class="slide_content">
 
                 </div>
@@ -155,11 +155,11 @@ session_start('perfil.php');
 			<h2>melhores drops</h2>
 			<p>Confira as NFTs que estão em alta!</p>
 			<ul id="flexiselDemo3">
-				<li><img src="images/nft1.png" /></li>
-				<li><img src="images/nft2.jpg" /></li>
-				<li><img src="images/nft3.png" /></li>
-				<li><img src="images/nft4.png" /></li>
-				<li><img src="images/nft5.png" /></li>
+				<li><img src="http://cmtechnology.me/cmtech/nft1.png" /></li>
+				<li><img src="http://cmtechnology.me/cmtech/nft2.jpg" /></li>
+				<li><img src="http://cmtechnology.me/cmtech/nft3.png" /></li>
+				<li><img src="http://cmtechnology.me/cmtech/nft4.png" /></li>
+				<li><img src="http://cmtechnology.me/cmtech/nft5.png" /></li>
 			</ul>
 		
 			<script type="text/javascript">
@@ -189,7 +189,7 @@ session_start('perfil.php');
 		    
 		});
 		</script>
-		<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+		<script type="text/javascript" src="http://cmtechnology.me/cmtech/jquery.flexisel.js"></script>
 		</div>
 	</div>
 	<div class="content-bottom">
@@ -209,7 +209,7 @@ session_start('perfil.php');
 			  <div class="row">
 				<div class="col-md-3 top_box">
 				  <div class="view view-ninth"><a href="single.html">
-                    <img src="images/crypto.png" class="img-responsive" width="50" height="50"/>
+                    <img src="http://cmtechnology.me/cmtech/crypto.png" class="img-responsive" width="50" height="50"/>
                     
                       <div class="content">
                         
@@ -221,7 +221,7 @@ session_start('perfil.php');
                 </div>
                 <div class="col-md-3 top_box">
 					<div class="view view-ninth"><a href="single.html">
-                    <img src="images/collectible.png" class="img-responsive" width="50" height="50"/>
+                    <img src="http://cmtechnology.me/cmtech/collectible.png" class="img-responsive" width="50" height="50"/>
                       <div class="content">
     
                       </div>
@@ -231,7 +231,7 @@ session_start('perfil.php');
 				</div>
 				<div class="col-md-3 top_box">
 					<div class="view view-ninth"><a href="single.html">
-                    <img src="images/gallery.png" class="img-responsive" width="50" height="50"/>
+                    <img src="http://cmtechnology.me/cmtech/gallery.png" class="img-responsive" width="50" height="50"/>
                       <div class="content">
                         
                       </div>
@@ -241,7 +241,7 @@ session_start('perfil.php');
 				</div>
 				<div class="col-md-3 top_box1">
 					<div class="view view-ninth"><a href="single.html">
-                    <img src="images/tag.png" class="img-responsive" width="50" height="50"/>
+                    <img src="http://cmtechnology.me/cmtech/tag.png" class="img-responsive" width="50" height="50"/>
                     <div class="mask mask-1"> </div>
                     <div class="mask mask-2"> </div>
                       <div class="content">
@@ -260,17 +260,17 @@ session_start('perfil.php');
 					<div class="col-md-3">
 						<ul class="footer_box">
 							<h4>Dúvidas</h4>
-							<li><a href="centralatendimento.php">Central de Atendimento</a></li>
-							<li><a href="politicadeprivacidade.php">Política de privacidade</a></li>
-							<li><a href="perguntasfrequentes.php">Perguntas Frequentes</a></li>
+							<li><a href="http://cmtechnology.me/cmtech/centralatendimento.php">Central de Atendimento</a></li>
+							<li><a href="http://cmtechnology.me/cmtech/politicadeprivacidade.php">Política de privacidade</a></li>
+							<li><a href="http://cmtechnology.me/cmtech/perguntasfrequentes.php">Perguntas Frequentes</a></li>
 							<li><a href="#">SAC</a></li>
 						</ul>
 					</div>
 					<div class="col-md-3">
 						<ul class="footer_box">
 							<h4>Sobre</h4>
-							<li><a href="sobrenos.php">Sobre nós</a></li>
-							<li><a href="missao.php">Missão</a></li>
+							<li><a href="http://cmtechnology.me/cmtech/sobrenos.php">Sobre nós</a></li>
+							<li><a href="http://cmtechnology.me/cmtech/missao.php">Missão</a></li>
 							<li><a href="#">Time</a></li>
 							<li><a href="#">Catalogo</a></li>
 						</ul>
