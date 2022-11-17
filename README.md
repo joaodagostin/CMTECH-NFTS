@@ -1,2 +1,1 @@
-# cmtech
-site tcc
+cmtechnology.me
